@@ -1,0 +1,46 @@
+
+
+.flex{
+    display: flex;
+}
+.border{
+    border-radius: 5px;
+    
+}
+.img_border{
+    border-radius: 3px;
+    height: 200px;
+}
+.gray{
+    background-color: #181818;
+}
+.m-1{
+    margin: 8px;
+}
+.p-1{
+    padding: 11px;
+}
+.invert{
+
+    filter: invert(1);
+}
+.icon{
+    width: 23px;
+}
+
+/* scroll bar color */
+:root {
+    --black: #dadada;
+    --gray: #ccc;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 6px;
+    background-color: var(--black);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
+    border-radius: 6px;
+  }
+/*  */
